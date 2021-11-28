@@ -1,4 +1,3 @@
-import msvcrt
 import time
 import os
 import sys
@@ -69,6 +68,7 @@ def gameorair():
 
 
 def kitchen():
+    os.system("cls")
     print("Welcome to kitchen, what do you want to eat/drink?\n")
     print("Use left or right arrow button")
     breakfeasts = ["cereal", "traditional breakfast", "coffee&croissant"]
@@ -108,6 +108,7 @@ def my_forever_while():
     start_time = time.time()
     time.sleep(1)
     # run this while there is no input
+    print("\n\n\n")
     print("\nYou:", end="\n")
     zzz = "zzz..."
     while (wakeup != True):
